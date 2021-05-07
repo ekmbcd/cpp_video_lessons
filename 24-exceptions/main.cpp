@@ -6,7 +6,7 @@ void test1()
 	try
 	{
 		// do some stuff
-		if (/*there is an error */)
+		if (/*there is an error */ 1)
 		{
 			// throw goes to catch block
 			throw std::exception();
@@ -26,7 +26,7 @@ void test1()
 void test2()
 {
 	// do some stuff
-	if (/*there is an error */)
+	if (/*there is an error */ 1)
 	{
 		throw std::exception();
 	}
